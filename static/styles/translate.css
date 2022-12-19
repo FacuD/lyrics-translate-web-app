@@ -1,0 +1,28 @@
+.lyrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.lyrics pre {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.back-button {
+  background-color: #3498db; /* blue color */
+  border: none; /* no border */
+  color: white; /* white text color */
+  padding: 15px 32px; /* button size */
+  text-align: center; /* center-aligned text */
+  text-decoration: none; /* no text decoration */
+  display: inline-block; /* display as inline block element */
+  font-size: 16px; /* font size */
+}
+
+.back-button:hover {
+  background-color: #2980b9; /* darker blue color */
+}

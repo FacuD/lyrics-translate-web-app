@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lyrics-web-app"
+version = "0.1.0"
+description = ""
+authors = ["FacuD"]
+readme = "README.md"
+packages = [{include = "lyrics_web_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+lyricsgenius = "^3.0.1"
+python-decouple = "^3.6"
+translators = "^5.5.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
