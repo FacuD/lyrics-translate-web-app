@@ -12,6 +12,7 @@ Flask = "^2.2.2"
 lyricsgenius = "^3.0.1"
 python-decouple = "^3.6"
 translators = "^5.5.5"
+gunicorn = "^20.1.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
