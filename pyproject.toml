@@ -15,6 +15,7 @@ translators = "^5.5.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.12.0"
+pdbpp = "^0.10.3"
 
 [build-system]
 requires = ["poetry-core"]
